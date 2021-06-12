@@ -30,7 +30,6 @@ We have done a basic setup with the `composer.json`. You can however just copy t
 ```sh
 composer require brianium/paratest
 composer require friendsofphp/php-cs-fixer
-composer require nunomaduro/collision
 composer require orchestra/testbench
 composer require phpunit/phpunit
 composer require vimeo/psalm
