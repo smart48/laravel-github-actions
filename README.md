@@ -1,6 +1,6 @@
 # Laravel Github Actions
 
-Laravel Github Actions sets up PHP CS Fixer and Builds wiht unit testing for your Laravel application. 
+Laravel Github Actions sets up PHP CS Fixer and Builds with unit testing for your Laravel application. 
 
 ## Github Action
 
