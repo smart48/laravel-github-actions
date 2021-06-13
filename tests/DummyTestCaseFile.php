@@ -1,3 +1,10 @@
 <?php
 
-// no data added to this dummy file
+namespace Tests;
+
+use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
+
+abstract class TestCase extends BaseTestCase
+{
+    //
+}

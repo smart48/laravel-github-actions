@@ -1,6 +1,6 @@
 # Laravel Github Actions
 
-Laravel Github Actions sets up PHP CS Fixer and Builds for your Laravel application. The builds will run tests set in `phpunit.xml`.
+Laravel Github Actions sets up PHP CS Fixer and Builds for your Laravel application. 
 
 ## Github Action
 
@@ -28,12 +28,15 @@ The `.php-cs-fixer.dist.php` is the latest PHP CS Fixer configuration file and w
 We have done a basic setup with the `composer.json`. You can however just copy the composer `require-dev` packages over to your composer file or add them with require
 
 ```sh
-composer require brianium/paratest
-composer require friendsofphp/php-cs-fixer
-composer require orchestra/testbench
-composer require phpunit/phpunit
-composer require vimeo/psalm
+composer require --dev brianium/paratest
+composer require --dev friendsofphp/php-cs-fixer
+composer require --dev orchestra/testbench
+composer require --dev vimeo/psalm
 ```
+
+## PHP Unit
+
+Laravel comes pre-installed with PHP Unit so `composer require --dev phpunit/phpunit` is not needed. It will however be used in the builds to run the tests The builds will run test cases set in `phpunit.xml`. Basics setup, but you may want to adjust this some more to your liking.
 
 ## Scripts
 
